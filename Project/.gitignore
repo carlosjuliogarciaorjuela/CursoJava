@@ -1,0 +1,45 @@
+# Archivos de compilación de Java
+*.class
+
+# Empaquetados
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Directorios de compilación y salida de Maven
+/target/
+
+# Directorios de compilación y salida de Gradle (si usas Gradle en el futuro)
+.gradle/
+/build/
+
+# Archivos de configuración de IDEs
+.idea/                 # IntelliJ IDEA
+.vscode/               # VS Code (algunos archivos específicos)
+*.iml                  # IntelliJ IDEA
+*.ipr                  # IntelliJ IDEA
+*.iws                  # IntelliJ IDEA
+.project               # Eclipse
+.classpath             # Eclipse
+.settings/             # Eclipse
+.factorypath           # Eclipse
+.metadata/             # Eclipse Workspace
+
+# Archivos de sistema operativo
+.DS_Store              # macOS
+Thumbs.db              # Windows
+ehthumbs.db            # Windows
+*.log
+*.swp                  # Vim swap files
+*~                     # Archivos de respaldo de editores
+
+# Archivos de configuración de Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapper.properties
+
+# Archivos de compilación de JBang
+.jbang
